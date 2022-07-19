@@ -1,0 +1,27 @@
+// Colors
+$primary: #1F56CE;
+$tittle: #333333;
+$line: #DA6D40;
+
+
+
+//fonts
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: $tittle;
+}
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: $primary;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $tittle;
+}
+

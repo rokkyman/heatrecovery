@@ -5,64 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
-    <link rel="stylesheet" href="sass/style.scss">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
+    <div class="container">
+        <!-- about_us -->
         <div class="main__header">
             <h1>Про нас</h1>
+            <div class="main__header-line"></div>
             <div class="main__about">
+                <!-- our_team -->
                 <div class="main__about_content our__team">
-                    <div class="main__about_content our__team_description img-container">
-                        <img src="./assets/img/team.png" alt="our__team">
+                    <div class="main__about_content our__team_description img__container">
+                        <img src="./assets/img/team.svg" alt="our__team">
                     </div>
                     <div class="main__about_content our__team_description">
                         <div class="main__about_content our__team_description-tittle">
-                            <span>HeatRecovery ― перший в Україні спеціалізований інтернет-магазин децентралізованої вентиляції. 
-                                Ми проводимо індивідуальний аналіз, підбір та встановлення сучасних рекуператорів повітря і припливних пристроїв, а також їх сервіс та обслуговування. Такий підхід дозволяє вирішити проблеми недостатньої вентиляції приватних будинків, котеджів і квартир.   
-                                Впустивши перший раз свіже повітря у Ваш будинок, Ви зрозумієте, що це саме те, чого Вам так не вистачало!</span>    
+                            <p>HeatRecovery ― перший в Україні спеціалізований інтернет-магазин децентралізованої вентиляції.  <br><br>
+                                Ми проводимо індивідуальний аналіз, підбір та встановлення сучасних рекуператорів повітря і припливних пристроїв, а також їх сервіс та обслуговування. Такий підхід дозволяє вирішити проблеми недостатньої вентиляції приватних будинків, котеджів і квартир.  <br><br>  
+                                Впустивши перший раз свіже повітря у Ваш будинок, Ви зрозумієте, що це саме те, чого Вам так не вистачало!</p>    
                         </div>
                         <div class="main__about_content our__team_description-list">
                             <h2>Ми експерти у сфері:</h2>  
-                            <li>
-                                <ul>енергоефективних систем вентиляції, кондиціонування та опалення</ul>
-                                <ul>систем водопостачання та водонагрівачів</ul>
-                                <ul>систем очистки води будь-якого рівня складності</ul>
-                                <ul>систем зволоження та очистки повітря</ul>
-                            </li>
+                            <ul>
+                                <li>енергоефективних систем вентиляції, кондиціонування та опалення</li>
+                                <li>систем водопостачання та водонагрівачів</li>
+                                <li>систем очистки води будь-якого рівня складності</li>
+                                <li>систем зволоження та очистки повітря</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <!-- our__job -->
                 <div class="main__about_content our__job">
                     <div class="main__about_content our__job_about">
                         <h2>Як ми працюємо</h2>
                         <section>
                             <article>
-                                <span>1</span>
+                                <span><p>1</p></span>
                                 <div>
                                     <p>Отримуємо від вас технічне завдання</p>
                                 </div>
                             </article>
                             <article>
-                                <span>2</span>
+                                <span><p>2</p></span>
                                 <div>
                                     <p>Підбираємо найоптимальніший варіант</p>
                                 </div>
                             </article>
                             <article>
-                                <span>3</span>
+                                <span><p>3</p></span>
                                 <div>
                                     <p>Видаємо технічне рішення</p>
                                 </div>
                             </article>
                             <article>
-                                <span>4</span>
+                                <span><p>4</p></span>
                                 <div>
                                     <p>Якісно монтуємо обладнання</p>
                                 </div>
                             </article>
                             <article>
-                                <span>5</span>
+                                <span><p>5</p></span>
                                 <div>
                                     <p>Проводимо сервіс змонтованого обладнання</p>
                                 </div>
@@ -74,23 +78,103 @@
                             <h2>Ми надаємо гарантію на нашу роботу</h2>
                             <p>Отримуючи товар і монтаж від нашої компанії Ви отримуєте повну безпеку, так як одна організація несе відповідальність за обладнання і за монтажні роботи.</p>
                         </div>
+                        <div class="our__job_description-header-line"></div>
                         <div class="main__about_content our__job_description-footer">
                             <h2>Наші менеджери знають обладнання яке продають і завжди порадять вам найоптимальніший варіант</h2>
                             <p>Якщо вам необхідна думка експерта</p>
-                            <button class="button btn-block" name="submit" type="submit">Замовити консультацію</button>
+                            <button class="btn btn-block" name="submit" type="submit">Замовити консультацію</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- documentation -->
         <div class="main__documentation">
-
+            <h1>Документы</h1>
+            <div class="main__documentation-line"></div>
+            <h2>Сертифікати</h2>
+            <p>Наш покупець може бути впевнений в якості свого монтажу та офіційної гарантії на куплене обладнання</p>
+            <div class="main__documentation_files">
+                <div class="main__documentation_files-left">
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                </div>
+                <div class="main__documentation_files-right">
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                    <div class="main__documentation_files-pdf">
+                        <img src="./assets/img/pdf.svg" alt="pdf">
+                        <p>Назва...</p>
+                    </div>
+                </div>
+            </div>  
         </div>
+        <!-- price -->
         <div class="main__price">
-
+            <h1>Прайс</h1>
+            <div class="main__price-line"></div>
+            <div class="main__price_files-exl">
+                <img src="./assets/img/exl.svg" alt="pdf">
+                <p>Назва прайсу</p>
+            </div>
         </div>
+        <!-- main_job -->
         <div class="main__job">
-
+            <h1>Вакансії</h1>
+            <div class="main__job-line"></div>
+            <div class="main__job_content">
+                <div class="main__job_content-description">
+                    <div class="main__job description-tittle">
+                        <p>Бажаєте стати частинкою нашої активної та професійній команди? <br>
+                            Чекаємо на ваш дзвінок або лист! <br>
+                            З нами ви зможете не лише вдосконалювати свої навички, але і вивчати нові для себе напрямки. <br><br>
+                            
+                            Наша електронна адреса: <a href="heatrecovery.com.ua@gmail.com">heatrecovery.com.ua@gmail.com</a></p>    
+                    </div>
+                    <div class="main__job description-list">
+                        <h2>Актуальні вакансії:</h2>  
+                        <ul>
+                            <li>менеджер з продажу сантехніки</li>
+                            <li>монтажник систем вентиляції та кондиціонування</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main__job_content-description img__container">
+                    <img src="./assets/img/man_with_folder.svg" alt="main_with-folder">
+                </div>
+            </div>
         </div>
         <div class="main__slider-brands">
 
