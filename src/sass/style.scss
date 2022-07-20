@@ -2,6 +2,7 @@
 @import './general/typography.scss';
 @import './general/variable.scss';
 @import './components/button.scss';
+@import './components/line.scss';
 
 .main__about {
     display: flex;
@@ -11,8 +12,6 @@
 //our_team
 .main__header-line {
     width: 72px;
-    border: .01px solid $line;
-    background-color: $line;
 }
 .our__team {
     display: flex;
@@ -96,11 +95,9 @@
     font-size: 18px;
     color: $primary;
 }
-.our__job_description-header-line {
+.our__job_description-line {
     width: 272px;
     margin: 26px 0;
-    border: .01px solid $line;
-    background-color: $line;
 }
 .our__job_description h2 {
     margin-top: 0;
@@ -114,8 +111,6 @@
 }
 .main__documentation-line {
     width: 99px;
-    border: .01px solid $line;
-    background-color: $line;
 }
 .main__documentation_files {
     display: flex;
@@ -139,8 +134,6 @@
 }
 .main__price-line {
     width: 99px;
-    border: .01px solid $line;
-    background-color: $line;
 }
 .main__price_files-exl {
     display: flex;
@@ -155,8 +148,6 @@
 }
 .main__job-line {
     width: 72px;
-    border: .01px solid $line;
-    background-color: $line;
 }
 .main__job_content {
     display: flex;

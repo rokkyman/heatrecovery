@@ -81,14 +81,33 @@ p {
     background-color: #3e72e2;
     color: #fff; }
 
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #333333; }
+
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F56CE; }
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333; }
+
+.light_line {
+  border-bottom: 0.01px solid #DA6D40; }
+
 .main__about {
   display: flex;
   flex-direction: column; }
 
 .main__header-line {
-  width: 72px;
-  border: 0.01px solid #DA6D40;
-  background-color: #DA6D40; }
+  width: 72px; }
 
 .our__team {
   display: flex;
@@ -169,11 +188,9 @@ p {
   font-size: 18px;
   color: #1F56CE; }
 
-.our__job_description-header-line {
+.our__job_description-line {
   width: 272px;
-  margin: 26px 0;
-  border: 0.01px solid #DA6D40;
-  background-color: #DA6D40; }
+  margin: 26px 0; }
 
 .our__job_description h2 {
   margin-top: 0; }
@@ -184,9 +201,7 @@ p {
   padding-top: 10px; }
 
 .main__documentation-line {
-  width: 99px;
-  border: 0.01px solid #DA6D40;
-  background-color: #DA6D40; }
+  width: 99px; }
 
 .main__documentation_files {
   display: flex;
@@ -207,9 +222,7 @@ p {
   padding: 20px 0 10px 0; }
 
 .main__price-line {
-  width: 99px;
-  border: 0.01px solid #DA6D40;
-  background-color: #DA6D40; }
+  width: 99px; }
 
 .main__price_files-exl {
   display: flex;
@@ -221,9 +234,7 @@ p {
   padding-top: 20px; }
 
 .main__job-line {
-  width: 72px;
-  border: 0.01px solid #DA6D40;
-  background-color: #DA6D40; }
+  width: 72px; }
 
 .main__job_content {
   display: flex;
