@@ -359,6 +359,13 @@ p {
   background-color: #EEEEEE;
   padding-left: 30px;
   border-radius: 8px; }
+  .find__vacantion_content-left ul {
+    padding-left: 20px; }
+  .find__vacantion_content-left li {
+    color: #1F56CE;
+    list-style-type: disc; }
+    .find__vacantion_content-left li span {
+      color: black; }
 
 .find__vacantion_content-right {
   width: 579px;

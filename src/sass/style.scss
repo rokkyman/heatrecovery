@@ -328,6 +328,20 @@
     background-color: #EEEEEE; 
     padding-left: 30px ;
     border-radius: 8px;
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        color: $primary;
+        list-style-type: disc;
+        
+    
+            span {
+            color: black;
+            }
+    }
 }
 .find__vacantion_content-right {
     width: 579px;
@@ -339,3 +353,4 @@
         font-weight: 500;
     }
 }
+ 
