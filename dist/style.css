@@ -249,6 +249,7 @@ p {
 .main__job_content-description img {
   width: 579px;
   height: 437px;
+  background-color: #E6ECFE;
   margin-left: 40px; }
 
 .description-list {
@@ -258,3 +259,22 @@ p {
 
 .description-list ul {
   padding-left: 20px; }
+
+.main__brands-line {
+  width: 99px; }
+
+.slider__brands {
+  width: 1211px;
+  height: 471px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.slider_brand {
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  width: 235px;
+  height: 235px; }
+
+.slider_brand img {
+  display: block;
+  margin: 0 auto; }
