@@ -20,8 +20,8 @@ p {
 .container {
   max-width: 1214px;
   margin: 0 auto;
-  border: 1px solid black;
-  padding: 69px 20px 49px 46px; }
+  padding: 69px 20px 49px 46px;
+  background: #E5E5E5; }
 
 * {
   font-family: 'Montserrat', sans-serif; }
@@ -278,7 +278,7 @@ p {
   align-items: center;
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.247);
-  width: 254.9px;
+  width: 241px;
   height: 235px; }
 
 .agreement-line {
@@ -323,7 +323,6 @@ p {
   align-items: center;
   justify-content: flex-start;
   margin: 0 auto;
-  padding: 0 20px 0 47px;
   max-width: 1280px;
   height: 244px;
   background-color: #1F56CE; }
@@ -465,31 +464,21 @@ p {
 .warranty__repair_about {
   border-radius: 8px;
   margin-right: 40px; }
-  .warranty__repair_about section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    width: auto;
-    height: auto; }
   .warranty__repair_about article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black; }
+    position: relative;
+    margin-top: 10px; }
   .warranty__repair_about span {
+    position: absolute;
+    line-height: 30px;
     width: 30px;
     height: 30px;
     background-color: #1F56CE;
-    align-items: center;
     text-align: center;
     border-radius: 50%;
     font-size: 14px;
     color: white; }
   .warranty__repair_about p {
+    font-weight: 500;
     margin-left: 40px; }
 
 .warranty__repair_content-description {
@@ -499,4 +488,242 @@ p {
     width: 579px;
     height: 437px;
     background-color: #EAF0FE;
+    border-radius: 8px;
+    padding-right: 20px; }
+
+.services__line {
+  width: 99px; }
+
+.services__content {
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.247);
+  padding-top: 30px; }
+
+.services__description {
+  flex-basis: 50%;
+  margin-right: 30px; }
+  .services__description p {
+    margin: 0; }
+  .services__description ul {
+    padding-left: 20px; }
+  .services__description li {
+    color: #1F56CE;
+    list-style-type: disc;
+    margin-top: 10px; }
+    .services__description li span {
+      color: black; }
+
+.services__tabs {
+  display: flex;
+  flex-wrap: wrap; }
+  .services__tabs .services__tab {
+    margin-right: 20px;
+    position: relative; }
+    .services__tabs .services__tab p {
+      position: absolute;
+      top: 0;
+      left: 10px;
+      font-weight: 700;
+      font-size: 30px;
+      color: #333333;
+      opacity: 0.2; }
+    .services__tabs .services__tab h2 {
+      position: absolute;
+      bottom: 10px;
+      left: 15px; }
+
+.services2__line {
+  width: 99px; }
+
+.services2__content {
+  border-top: 1px solid rgba(0, 0, 0, 0.247);
+  padding-top: 30px; }
+
+.cooperation__header-line {
+  width: 72px; }
+
+.cooperation__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 37px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.247); }
+  .cooperation__about p {
+    font-weight: 400;
+    margin-top: 0; }
+  .cooperation__about img {
+    margin-right: 40px;
+    width: 579px;
+    height: 437px;
+    background-color: #EAF0FE;
+    border-radius: 8px;
+    padding: 40px; }
+
+.cooperation__description-line {
+  width: 272px; }
+
+.recommend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 244px;
+  background-color: #1F56CE; }
+  .recommend h1 {
+    color: white; }
+
+.recommend-line {
+  width: 95px; }
+
+.recommend__container {
+  display: flex;
+  margin-top: 20px; }
+
+.recommend__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 20px 0 20px; }
+  .recommend__content p {
+    color: white; }
+  .recommend__content img {
+    padding-right: 20px;
     border-radius: 8px; }
+
+.offer__cooperation-form {
+  padding-top: 20px; }
+
+form {
+  width: 639px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 10px 20px; }
+
+.form__change_mail {
+  border-top: 10px solid #1f56ce;
+  position: relative;
+  padding-bottom: 40px; }
+  .form__change_mail h1 {
+    font-weight: 500;
+    margin-top: 0; }
+  .form__change_mail .mail {
+    position: absolute;
+    left: 55px;
+    bottom: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #606367; }
+  .form__change_mail p {
+    position: absolute;
+    left: 55px;
+    bottom: 20px;
+    color: #1F56CE; }
+  .form__change_mail span {
+    position: absolute;
+    color: #DA6D40;
+    top: 10px;
+    right: -60px; }
+
+.form__answear p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5px; }
+
+.form__answear span {
+  color: #DA6D40; }
+
+.form__answear input {
+  margin: 0; }
+
+.form__question p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 5px; }
+  .form__question p span {
+    color: #DA6D40; }
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+  width: 294px; }
+
+.contacts h1 {
+  padding-top: 20px; }
+
+.contacts-line {
+  width: 72px; }
+
+.contacts_content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 37px; }
+
+.contacts_content-description {
+  border-top: 1px solid rgba(0, 0, 0, 0.247);
+  padding-top: 20px; }
+  .contacts_content-description img {
+    margin: 20px 0 0 40px;
+    width: 890px;
+    height: 452px;
+    border-radius: 8px; }
+
+.contacts_content-description {
+  padding: 0; }
+  .contacts_content-description ul {
+    padding-left: 25px; }
+
+.delivery__line {
+  width: 99px; }
+
+.delivery__contents {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #e2e2e2; }
+
+.delivery__content {
+  width: 360px;
+  height: 274px;
+  background-color: white;
+  margin: 20px 20px 10px 0;
+  padding: 20px 0 0 20px;
+  border-radius: 8px; }
+
+.delivery__region {
+  background-color: #E5E5E5;
+  height: auto; }
+
+.payment__header {
+  padding-top: 0; }
+  .payment__header h1 {
+    margin-top: 0; }
+
+.payment__line {
+  width: 99px; }
+
+.payment__contents {
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  flex-wrap: wrap; }
+
+.payment__content {
+  margin: 0 10px 10px 0; }
+  .payment__content h2 {
+    position: relative;
+    left: 150px;
+    top: 75px;
+    z-index: 1; }
+
+.payment__content2 {
+  margin: 0 10px 10px 0; }
+  .payment__content2 h2 {
+    position: relative;
+    left: 80px;
+    top: 50px;
+    z-index: 1; }
