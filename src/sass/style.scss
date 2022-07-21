@@ -33,6 +33,7 @@
     }
     img{
         margin-right: 40px;
+        border-radius:8px;
     }
 }
 .our__team_description-list {
@@ -175,6 +176,7 @@
         width: 579px;
         height: 437px;
         background-color: #EAF0FE;
+        border-radius:8px;
     }
 }
 .description-list {
@@ -267,6 +269,7 @@
         width: 579px;
         height: 437px;
         background-color: #EAF0FE;
+        border-radius:8px;
     }
 }
 .vacancy__description-line {
@@ -280,7 +283,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px 0 47px;
+    max-width: 1280px;
     height: 244px;
     background-color: $primary;
 
@@ -307,6 +312,7 @@
 
     img {
         padding-right: 20px;
+        border-radius:8px;
     }
 }
 
@@ -337,7 +343,6 @@
         color: $primary;
         list-style-type: disc;
         
-    
             span {
             color: black;
             }
@@ -351,6 +356,164 @@
     p {
         margin: 0;
         font-weight: 500;
+    }
+}
+
+//SERVICE
+
+// header
+
+.service__header-line  {
+    width: 72px;
+}
+.service__header h2 {
+    margin: 5px 0;
+}
+.service__about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 37px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+
+    p {
+        font-weight: 400;
+        margin-top: 0;
+    }
+    img{
+        margin-right: 40px;
+        width: 579px;
+        height: 437px;
+        background-color: #EAF0FE;
+        border-radius:8px;
+    }
+}
+.service__description-list {
+    background-color: $line;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+
+    h2 {
+        color: white;
+    }
+    ol {
+        margin: 0;
+        padding: 10px 20px ;
+
+        li {
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+}
+
+//purchase
+
+.purchase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    // padding: 0 20px 0 47px;
+    max-width: 1280px;
+    height: 244px;
+    background-color: $primary;
+
+        h1 {
+            color:white;
+        }
+}
+.purchase-line {
+    width: 95px;
+}
+.purchase__container {
+    display: flex;
+    margin-top: 20px;   
+}
+.purchase__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 20px 0 20px;
+
+    p {
+        color: white;
+    }
+
+    img {
+        padding-right: 20px;
+        border-radius:8px;
+    }
+}
+
+//warranty__repair
+
+.warranty__repair {
+
+    h1 {
+    padding-top: 20px;
+    }
+    p {
+        margin: 0;
+    }
+}
+.warranty__repair-line {
+    width: 72px;
+}
+.warranty__repair_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 37px;
+}
+
+.warranty__repair_about {
+    border-radius: 8px;
+    margin-right: 40px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: auto;
+        height: auto;
+    }
+    article {
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+    span {
+        width: 30px;
+        height: 30px;
+        background-color: $primary;
+        align-items:center;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 14px;
+        color: white;
+    }
+    p {
+        margin-left: 40px;
+    }
+}
+.warranty__repair_content-description {
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+    padding-top: 20px;
+
+    img {
+        width: 579px;
+        height: 437px;
+        background-color: #EAF0FE;
+        border-radius:8px;
     }
 }
  

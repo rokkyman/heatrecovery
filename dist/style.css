@@ -18,11 +18,10 @@ p {
   color: #333333; }
 
 .container {
-  max-width: 1280px;
-  padding: 0;
+  max-width: 1214px;
   margin: 0 auto;
   border: 1px solid black;
-  padding: 69px 20px 49px 47px; }
+  padding: 69px 20px 49px 46px; }
 
 * {
   font-family: 'Montserrat', sans-serif; }
@@ -121,7 +120,8 @@ p {
     font-weight: 400;
     margin-top: 0; }
   .our__team img {
-    margin-right: 40px; }
+    margin-right: 40px;
+    border-radius: 8px; }
 
 .our__team_description-list {
   padding: 20px;
@@ -237,7 +237,8 @@ p {
     margin-left: 40px;
     width: 579px;
     height: 437px;
-    background-color: #EAF0FE; }
+    background-color: #EAF0FE;
+    border-radius: 8px; }
 
 .description-list {
   padding: 20px;
@@ -310,7 +311,8 @@ p {
     margin-right: 40px;
     width: 579px;
     height: 437px;
-    background-color: #EAF0FE; }
+    background-color: #EAF0FE;
+    border-radius: 8px; }
 
 .vacancy__description-line {
   width: 272px; }
@@ -320,7 +322,9 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px 0 47px;
+  max-width: 1280px;
   height: 244px;
   background-color: #1F56CE; }
   .guarantees h1 {
@@ -341,7 +345,8 @@ p {
   .guarantees__content p {
     color: white; }
   .guarantees__content img {
-    padding-right: 20px; }
+    padding-right: 20px;
+    border-radius: 8px; }
 
 .find__vacantion-line {
   width: 99px; }
@@ -374,3 +379,123 @@ p {
   .find__vacantion_content-right p {
     margin: 0;
     font-weight: 500; }
+
+.service__header-line {
+  width: 72px; }
+
+.service__header h2 {
+  margin: 5px 0; }
+
+.service__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 37px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.247); }
+  .service__about p {
+    font-weight: 400;
+    margin-top: 0; }
+  .service__about img {
+    margin-right: 40px;
+    width: 579px;
+    height: 437px;
+    background-color: #EAF0FE;
+    border-radius: 8px; }
+
+.service__description-list {
+  background-color: #DA6D40;
+  padding: 20px;
+  border-radius: 8px;
+  color: white; }
+  .service__description-list h2 {
+    color: white; }
+  .service__description-list ol {
+    margin: 0;
+    padding: 10px 20px; }
+    .service__description-list ol li {
+      font-weight: 400;
+      font-size: 14px; }
+
+.purchase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 244px;
+  background-color: #1F56CE; }
+  .purchase h1 {
+    color: white; }
+
+.purchase-line {
+  width: 95px; }
+
+.purchase__container {
+  display: flex;
+  margin-top: 20px; }
+
+.purchase__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 20px 0 20px; }
+  .purchase__content p {
+    color: white; }
+  .purchase__content img {
+    padding-right: 20px;
+    border-radius: 8px; }
+
+.warranty__repair h1 {
+  padding-top: 20px; }
+
+.warranty__repair p {
+  margin: 0; }
+
+.warranty__repair-line {
+  width: 72px; }
+
+.warranty__repair_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 37px; }
+
+.warranty__repair_about {
+  border-radius: 8px;
+  margin-right: 40px; }
+  .warranty__repair_about section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: auto;
+    height: auto; }
+  .warranty__repair_about article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black; }
+  .warranty__repair_about span {
+    width: 30px;
+    height: 30px;
+    background-color: #1F56CE;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white; }
+  .warranty__repair_about p {
+    margin-left: 40px; }
+
+.warranty__repair_content-description {
+  border-top: 1px solid rgba(0, 0, 0, 0.247);
+  padding-top: 20px; }
+  .warranty__repair_content-description img {
+    width: 579px;
+    height: 437px;
+    background-color: #EAF0FE;
+    border-radius: 8px; }
