@@ -749,13 +749,26 @@ input[type="text"] {
 .delivery__line {
     width: 99px;
 }
-.delivery__contents {
+.delivery__box {
+    margin: 0 -10px;
+}
+.delivery__contents-tabs {
     display: flex;
-    flex-wrap: wrap;
     border-top: 1px solid rgba(226, 226, 226, 1);
 }
-.delivery__content {
-    width: 360px;
+.delivery__content-tab {
+    width: 380px;
+    height: 274px;
+    background-color: white;
+    margin: 20px 20px 10px 0;
+    padding: 20px 0 0 20px;
+    border-radius: 8px;
+}
+.delivery__contents-regions {
+    display: flex;
+}
+.delivery__content-region {
+    width: 380px;
     height: 274px;
     background-color: white;
     margin: 20px 20px 10px 0;
