@@ -694,7 +694,7 @@ input[type="text"] {
   height: 274px;
   background-color: white;
   margin: 20px 20px 10px 0;
-  padding: 20px 0 0 20px;
+  padding: 20px 20px;
   border-radius: 8px; }
 
 .delivery__contents-regions {
@@ -703,10 +703,11 @@ input[type="text"] {
 .delivery__content-region {
   width: 380px;
   height: 274px;
-  background-color: white;
   margin: 20px 20px 10px 0;
-  padding: 20px 0 0 20px;
+  padding: 20px 20px;
   border-radius: 8px; }
+  .delivery__content-region span p {
+    margin-top: -15px; }
 
 .delivery__region {
   background-color: #E5E5E5;
@@ -759,3 +760,90 @@ input[type="text"] {
     height: 200px; }
   .blog__content p {
     width: 380px; }
+
+.blog__checkbox-box {
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  max-width: 1140px;
+  height: 204px;
+  position: relative; }
+
+.blog__checkbox {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0; }
+
+.checkbox__content {
+  width: 380px;
+  height: 30px; }
+  .checkbox__content input[type=checkbox] {
+    border: none; }
+  .checkbox__content input[type=submit] {
+    position: absolute;
+    border: none;
+    background-color: white;
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+    right: 20px;
+    bottom: 20px; }
+
+.blog2__nav-box {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+  .blog2__nav-box .page__number {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    background-color: #EAF0FE;
+    border-radius: 8px; }
+    .blog2__nav-box .page__number p {
+      margin: 0;
+      font-weight: 700;
+      font-size: 18px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%); }
+  .blog2__nav-box .blog__page_active {
+    background-color: #1F56CE; }
+    .blog2__nav-box .blog__page_active p {
+      color: white; }
+
+.aircondition__box {
+  margin: 0 auto;
+  width: 788px; }
+
+.aircondition__box_contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px; }
+
+.aircondition__box_content {
+  width: 380px;
+  margin: 10px; }
+  .aircondition__box_content h2 {
+    color: black;
+    font-size: 18px; }
+
+.aircondition__box_about h2 {
+  color: black;
+  font-size: 22px; }
+
+.aircondition__box_plus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.247); }
+  .aircondition__box_plus h2 {
+    color: black;
+    font-size: 22px; }
+
+.aircondition__box_footer span {
+  font-style: italic;
+  font-weight: 700; }
