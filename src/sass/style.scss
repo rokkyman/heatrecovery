@@ -803,3 +803,27 @@ input[type="text"] {
         z-index: 1;
     }
 }
+
+//BLOG
+.blog__line {
+    width: 99px;
+}
+.blog__box {
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+}
+.blog__contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -10px;
+}
+.blog__content {
+    margin: 10px;
+
+    img {
+        width: 380px;
+        height: 200px;
+    }
+    p {
+        width: 380px;
+    }
+}

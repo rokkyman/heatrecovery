@@ -727,3 +727,22 @@ input[type="text"] {
     left: 80px;
     top: 50px;
     z-index: 1; }
+
+.blog__line {
+  width: 99px; }
+
+.blog__box {
+  border-top: 1px solid rgba(0, 0, 0, 0.247); }
+
+.blog__contents {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px -10px; }
+
+.blog__content {
+  margin: 10px; }
+  .blog__content img {
+    width: 380px;
+    height: 200px; }
+  .blog__content p {
+    width: 380px; }
