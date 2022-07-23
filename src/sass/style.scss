@@ -203,11 +203,18 @@
     position: absolute;
     left: 0px;
     background-color: white;
+    background-color: #E5E5E5;
+    img {
+        background-color: white;
+    }
 }
 .arrow__right {
     position: absolute;
     right: 7px;
-    background-color: white;
+    background-color: #E5E5E5;
+    img {
+        background-color: white;
+    }
 }
 .slider__brands {
     display: flex;
@@ -711,6 +718,7 @@ input[type="text"] {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.247);
     width: 294px;
+    background-color: #E5E5E5;
 }
 
 //CONTACTS
