@@ -4,7 +4,10 @@
     max-width: 1214px;
     margin: 0 auto;
     padding: 69px 20px 49px 46px;
-    background: #E5E5E5
+    background: #E5E5E5;
+    @media screen and (max-width: 768px){
+        margin: 0 auto;
+    }
 }
 
 

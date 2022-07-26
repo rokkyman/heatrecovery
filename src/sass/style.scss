@@ -26,14 +26,25 @@
     margin-bottom: 37px;
     padding-top: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.247);
+    @media screen and (max-width: 768px){
+        display: block;
+        margin: 0 auto;
+    }
 
     p {
         font-weight: 400;
         margin-top: 0;
+        @media screen and (max-width: 768px){
+            margin-top: 20px;
+        }
     }
     img{
         margin-right: 40px;
         border-radius:8px;
+        @media screen and (max-width: 768px) {
+            display: block;
+            margin: 0 auto;
+        }
     }
 }
 .our__team_description-list {
@@ -54,6 +65,9 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 37px;
+    @media screen and (max-width: 768px){
+        display: block;
+    }
 }
 .our__job_about {
     background-color: $primary;
@@ -101,6 +115,11 @@
             font-size: 18px;
             color: $primary;
         }
+    }
+
+    @media screen and (max-width: 768px){
+        margin: 20px 0;
+        padding: 10px 0;
     }
 }
 .our__job_description-line {
@@ -166,6 +185,10 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 37px;
+    @media screen and (max-width: 768px){
+        display: block;
+        margin: 0 auto;
+    }
 }
 .main__job_content-description {
     border-top: 1px solid rgba(0, 0, 0, 0.247);
