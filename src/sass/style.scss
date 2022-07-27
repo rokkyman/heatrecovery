@@ -55,7 +55,6 @@
     padding: 20px;
     background-color: #EEEEEE;
     border-radius: 8px;
-
     ul {
         padding-left: 20px;
     }
@@ -78,6 +77,13 @@
     border-radius: 8px;
     margin-right: 40px;
     width: 579px;
+    @media screen and (max-width: 945px) {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        margin: 10px 0;
+        width: 100%;
+    }
     @media screen and (max-width: 480px) {
         background:none;
     }
@@ -126,7 +132,7 @@
         align-items:center;
         border-radius: 50%;
         @media screen and (max-width: 480px) {
-            display: none;
+            // display: none;
         }
         div {
             @media screen and (max-width: 630px) {
@@ -328,10 +334,15 @@
     margin-bottom: 37px;
     padding-top: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.247);
-
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
+    h2 {
+        margin-right: 20px;
+    }
     p {
         font-weight: 400;
-        margin-top: 0;
+        margin: 0 20px 20px 0;
     }
     img{
         margin-right: 40px;
@@ -339,7 +350,17 @@
         height: 437px;
         background-color: #EAF0FE;
         border-radius:8px;
+        padding: 40px;
+        @media screen and (max-width: 1000px) {
+            display: block;
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+        }
     }
+}
+.vacancy__description {
+    width: 100%;
 }
 .vacancy__description-line {
     width: 272px;
@@ -356,6 +377,9 @@
     max-width: 1280px;
     height: 244px;
     background-color: $primary;
+    @media screen and (max-width: 1065px) {
+        height: auto;
+    }
 
         h1 {
             color:white;
@@ -367,12 +391,20 @@
 .guarantees__container {
     display: flex;
     margin-top: 20px;   
+    @media screen and (max-width: 870px) {
+        flex-direction: column;
+        align-content: center;
+    }
 }
 .guarantees__content {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 20px 0 20px;
+    @media screen and (max-width: 1035px) {
+        flex-direction: column;
+        align-items: center;
+    }
 
     p {
         color: white;
@@ -395,6 +427,9 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-top: 20px;
+    @media screen and (max-width: 870px) {
+        display: block;
+    }
 }
 .find__vacantion_content-left {
     width: 579px;
@@ -402,7 +437,10 @@
     background-color: #EEEEEE; 
     padding-left: 30px ;
     border-radius: 8px;
-
+    @media screen and (max-width: 870px) {
+        display: block;
+        padding: 20px;
+    }
     ul {
         padding-left: 20px;
     }
@@ -420,6 +458,11 @@
     width: 579px;
     height: 119px;
     margin-left: 20px;
+    @media screen and (max-width: 870px) {
+        display: block;
+        padding: 20px;
+        margin-left: 0;
+    }
 
     p {
         margin: 0;
@@ -584,6 +627,9 @@
     display: flex;
     border-top: 1px solid rgba(0, 0, 0, 0.247);
     padding-top: 30px;
+    @media screen and (max-width: 1255px) {
+        flex-direction: column;
+    }
 }
 .services__description {
     flex-basis: 50%;
@@ -608,6 +654,9 @@
 .services__tabs {
     display: flex;
     flex-wrap: wrap;
+    @media screen and (max-width: 1255px) {
+        justify-content: center;
+    }
 
     .services__tab {
         margin-right: 20px;
@@ -652,10 +701,21 @@
     margin-bottom: 37px;
     padding-top: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.247);
-
+    @media screen and (max-width: 880px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        @media screen and (max-width: 880px) {
+            text-align: center;
+        }
+    }
     p {
         font-weight: 400;
         margin-top: 0;
+        @media screen and (max-width: 880px) {
+            text-align: center;
+        }
     }
     img{
         margin-right: 40px;
@@ -664,11 +724,17 @@
         background-color: #EAF0FE;
         border-radius:8px;
         padding: 40px;
+        @media screen and (max-width: 880px) {
+            width: auto;
+            margin: 0 auto;
+            height: auto;
+        }
     }
 }
 .cooperation__description-line {
     width: 272px;
 }
+
 
 //recommend
 
@@ -681,9 +747,14 @@
     max-width: 1280px;
     height: 244px;
     background-color: $primary;
+    @media screen and (max-width: 940px) {
+        height: auto;
+    }
 
         h1 {
             color:white;
+            margin: 20px 20px;
+            text-align: center;
         }
 }
 .recommend-line {
@@ -692,12 +763,20 @@
 .recommend__container {
     display: flex;
     margin-top: 20px;   
+    @media screen and (max-width: 550px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .recommend__content {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin: 0 20px 0 20px;
+    @media screen and (max-width: 940px) {
+        flex-direction: column;
+        align-items: center;
+    }
 
     p {
         color: white;
@@ -720,6 +799,10 @@ form {
         border-radius: 8px;
         margin-top: 30px;
         padding: 10px 20px;
+        @media screen and (max-width: 7680px) {
+            width: 75%;
+
+        }
 }
 
 .form__change_mail {
@@ -781,6 +864,10 @@ input[type="text"] {
     border-bottom: 1px solid rgba(0, 0, 0, 0.247);
     width: 294px;
     background-color: #E5E5E5;
+    @media screen and (max-width: 430px) {
+        background-color: white;
+        width: 75%;
+    }
 }
 
 //CONTACTS
@@ -795,6 +882,11 @@ input[type="text"] {
     display: flex;
     align-items: flex-start;
     margin-bottom: 37px;
+    @media screen and (max-width: 1125px) {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .contacts_content-description {
     border-top: 1px solid rgba(0, 0, 0, 0.247);
@@ -805,6 +897,11 @@ input[type="text"] {
         width: 890px;
         height: 452px;
         border-radius:8px;
+        @media screen and (max-width: 950px) {
+            width: 100%;
+            height: auto;
+            margin: 0;
+        }
     }
 }
 .contacts_content-description {
@@ -825,6 +922,11 @@ input[type="text"] {
 .delivery__contents-tabs {
     display: flex;
     border-top: 1px solid rgba(226, 226, 226, 1);
+    @media screen and (max-width: 980px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
 .delivery__content-tab {
     width: 380px;
@@ -836,16 +938,38 @@ input[type="text"] {
 }
 .delivery__contents-regions {
     display: flex;
+    @media screen and (max-width: 540px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .delivery__content-region {
     width: 380px;
     height: 274px;
     margin: 20px 20px 10px 0;
-    padding: 20px 20px;
+    padding: 20px;
     border-radius: 8px;
-    
+    &:nth-last-child(-n+2) {
+        @media screen and (max-width: 540px) {
+            padding: 0;
+        }
+    }
+    @media screen and (max-width: 540px) {
+        width: 75%;
+        height: 100%;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+    p {
+        @media screen and (max-width: 540px) {
+            text-align: center;
+        }
+    }
     span p {
         margin-top: -15px;
+        @media screen and (max-width: 540px) {
+            text-align: center;
+        }
     }
 }
 .delivery__region {
@@ -868,24 +992,39 @@ input[type="text"] {
     border-top: 1px solid rgba(226, 226, 226, 1);
     display: flex;
     flex-wrap: wrap;
+    @media screen and (max-width: 1239px) {
+        justify-content: center;
+    }
+    img {
+        @media screen and (max-width: 640px) {
+            width: 100%;
+            height: auto;
+            
+        }
+    }
 }
 .payment__content {
     margin: 0 10px 10px 0;
+    position: relative;
 
     h2 {
-        position: relative;
-        left: 150px;
-        top: 75px;
+        position: absolute;
+        height: auto;
+        left: 23%;
+        right: 23%;
+        top: 5px;
         z-index: 1;
     }
 }
 .payment__content2 {
     margin: 0 10px 10px 0;
+    position: relative;
 
     h2 {
-        position: relative;
-        left: 80px;
-        top: 50px;
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 5px;
         z-index: 1;
     }
 }
@@ -901,16 +1040,29 @@ input[type="text"] {
     display: flex;
     flex-wrap: wrap;
     margin: 20px -10px;
+    @media screen and (max-width: 1235px) {
+        justify-content: space-around;
+    }
 }
 .blog__content {
     margin: 10px;
+    @media screen and (max-width: 400px) {
+        width: 100%;
+    }
 
     img {
         width: 380px;
         height: 200px;
+        @media screen and (max-width: 400px) {
+            width: 100%;
+            height: auto;
+        }
     }
     p {
         width: 380px;
+        @media screen and (max-width: 400px) {
+            width: 100%;
+        }
     }
 }
 
@@ -924,6 +1076,14 @@ input[type="text"] {
     max-width: 1140px;
     height: 204px;
     position: relative;
+    @media screen and (max-width: 500px) {
+        height: 100%;
+    }
+    @media screen and (max-width: 293px) {
+        padding: 0;
+        height: 315px;
+        width: 100%;
+    }
 }
 .blog__checkbox {
     border: none;
@@ -931,10 +1091,19 @@ input[type="text"] {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
+    @media screen and (max-width: 293px) {
+        width: 100%;
+    }
 }
 .checkbox__content {
     width: 380px;
     height: 30px;
+    @media screen and (max-width: 855px) {
+        width: 200px;
+    }
+    @media screen and (max-width: 293px) {
+        width: 100%;
+    }
 
     input[type=checkbox] {
         border: none;
@@ -988,17 +1157,32 @@ input[type="text"] {
 .aircondition__box {
     margin: 0 auto;
     width: 788px;
+    @media screen and (max-width: 860px) {
+        width: 100%;
+    }
+}
+.aircondition__box_img img{
+    @media screen and (max-width: 860px) {
+        width: 100%;
+    }
 }
 .aircondition__box_contents {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -10px;
+    @media screen and (max-width: 860px) {
+        justify-content: center;
+    }
 }
 .aircondition__box_content {
     width: 380px;
     margin: 10px;
-  
+    img {
+        @media screen and (max-width: 410px) {
+            width: 100%;
+        }
+    }
     h2 {
         color: black;
         font-size: 18px;
