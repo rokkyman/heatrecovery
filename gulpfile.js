@@ -17,7 +17,7 @@ gulp.task("copy-html", () => {
 });
 
 gulp.task("build-sass", () => {
-    return gulp.src("./src/sass/style.scss")
+    return gulp.src("./src/sass/v1-style.scss")
                 .pipe(sass().on('error', sass.logError))
                 .pipe(gulp.dest(dist))
                 .pipe(browsersync.stream());
@@ -82,7 +82,7 @@ gulp.task("watch", () => {
 gulp.task("build", gulp.parallel("copy-html", "build-js", "copy-assets", "build-sass"));
 
 gulp.task("prod", () => {
-    gulp.src("./src/sass/style.scss")
+    gulp.src("./src/sass/v1-style.scss")
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer()]))
         .pipe(cleanCSS())
