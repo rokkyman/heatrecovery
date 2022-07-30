@@ -361,26 +361,28 @@
                 border-radius: 0 8px 8px 0;
             }
         }
-
     }
-}
 
-//AGREEMENT
-
-.agreement-line {
-    width: 100px;
-    margin-top: 10px;
-}
-.how__it_use-tittle {
-    border-top: 1px solid rgba(0, 0, 0, 0.247);
-}
-.how__it_use-list ul li {
-    color: $primary;
-    list-style-type: disc;
-
-        span {
-        color: black;
+    &-policy {
+        .v1 {
+            &-col {
+                flex-direction: column;
+                margin-bottom: 40px;
+            }
+            &-title {
+                margin-bottom: 36px;
+            }
+            &-list {
+                &--dots {
+                    li {
+                        &:before {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
         }
+    }
 }
 
 //VACANCY

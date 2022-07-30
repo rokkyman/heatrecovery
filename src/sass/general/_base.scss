@@ -126,6 +126,42 @@
             width: 100%;
         }
     }
+
+    &-list {
+        padding: 0;
+        margin: 0;
+
+        &--def {
+            padding: 0 0 0 22px;
+            margin: 0;
+        }
+
+        &--numeric {
+            list-style-type: none;
+            counter-reset: number;
+
+            li {
+                counter-increment: number;
+
+                &:before {
+                    content: counters(number, ".") ". ";
+                }
+            }
+        }
+        &--dots {
+            list-style-type: none;
+
+            li {
+                &:before {
+                    content: "\2022";
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+            }
+        }
+    }
 }
 
 

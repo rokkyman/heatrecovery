@@ -1,4 +1,5 @@
 console.log('Hello!');
+
 $(document).ready(function(){
   $('.v1-brands--list').slick({
     rows:2,
@@ -22,8 +23,7 @@ $(document).ready(function(){
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
+          slidesToShow: 4
         }
       },
       {
@@ -36,8 +36,7 @@ $(document).ready(function(){
         breakpoint: 414,
         settings: {
           rows: 1,
-          slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToShow: 2
         }
       }
     ]
