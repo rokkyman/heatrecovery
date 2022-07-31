@@ -25,6 +25,21 @@
         line-height: 17px;
         color: $tittle;
     }
+    li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    &-container {
+        max-width: 1240px;
+        padding: 0 20px;
+        margin: 0 auto;
+
+        @media screen and (max-width: 768px) {
+            padding: 0 15px;
+        }
+    }
 
     &-row {
         display: flex;
@@ -115,11 +130,12 @@
         min-width: 260px;
         margin: 0;
         border-radius: 8px;
+        background-color: #EAF0FE;
         box-sizing: border-box;
 
         @media screen and (max-width: 768px) {
-            max-width: 587px;
-            margin: 0 auto;
+            max-width: 320px;
+            margin: 0 auto auto;
         }
 
         img {
@@ -137,7 +153,7 @@
         }
 
         &--numeric {
-            list-style-type: none;
+            list-style: none;
             counter-reset: number;
 
             li {
@@ -154,12 +170,154 @@
             li {
                 &:before {
                     content: "\2022";
-                    font-weight: bold;
                     display: inline-block;
                     width: 1em;
                     margin-left: -1em;
+                    font-weight: bold;
+                    color: $primary;
                 }
             }
+        }
+    }
+
+    &-block {
+        &--grey {
+            padding: 20px;
+            background-color: #EEEEEE;
+            border-radius: 8px;
+
+            h2 {
+                margin: 0 0 9px;
+            }
+            ul {
+                padding-left: 20px;
+            }
+        }
+        &--transparent {
+            h2 {
+                margin: 0 0 15px;
+            }
+            p {
+                margin: 0 0 25px;
+            }
+            ol {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                counter-reset: number;
+
+                li {
+                    position: relative;
+                    padding-left: 42px;
+                    margin-bottom: 10px;
+                    counter-increment: number;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    &:after {
+                        content: counter(number);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        background-color: #1F56CE;
+                        text-align: center;
+                        font-size: 18px;
+                        line-height: 32px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+        }
+        &--orange {
+            padding: 25px 35px;
+            background-color: #EC542F;
+            border-radius: 8px;
+            color: #FFFFFF;
+
+            h2 {
+                margin: 0 0 9px;
+                color: #FFFFFF;
+            }
+
+            ol {
+                padding-left: 20px;
+
+                li {
+                    margin-bottom: 15px;
+
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &-fullscreen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 40px;
+        background-color: $primary;
+        box-sizing: border-box;
+
+        @media screen and (max-width: 768px) {
+            padding: 15px;
+        }
+
+        h1 {
+            margin: 0 0 50px;
+            text-align: center;
+            color:white;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            margin: 0 -15px;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            min-width: 200px;
+            max-width: 246px;
+            flex: 20%;
+            padding: 0 15px;
+            margin: 0 0 15px;
+            box-sizing: border-box;
+
+            @media screen and (max-width: 576px) {
+                max-width: none;
+            }
+        }
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            margin: 0 12px 0 0;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+        }
+        img {
+            margin: auto;
+        }
+        span {
+            flex: 1;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            word-break: break-word;
         }
     }
 }
